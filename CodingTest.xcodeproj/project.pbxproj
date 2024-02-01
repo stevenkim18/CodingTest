@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C0EB191729F69C4C00B0535D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB191629F69C4C00B0535D /* main.swift */; };
+		C0EB191F29F6ABFF00B0535D /* LeetCode2085.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB191E29F6ABFF00B0535D /* LeetCode2085.swift */; };
+		C0F2E4C52B6BBB7600B87C43 /* 체육복.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2E4C42B6BBB7600B87C43 /* 체육복.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		C0EB191329F69C4C00B0535D /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EB191629F69C4C00B0535D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0EB191E29F6ABFF00B0535D /* LeetCode2085.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode2085.swift; sourceTree = "<group>"; };
+		C0F2E4C42B6BBB7600B87C43 /* 체육복.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "체육복.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		C0EB190A29F69C4C00B0535D = {
 			isa = PBXGroup;
 			children = (
+				C0F2E4C32B6BBB5900B87C43 /* Progreammers */,
+				C0EB191D29F69C6E00B0535D /* LeetCode */,
 				C0EB191529F69C4C00B0535D /* CodingTest */,
 				C0EB191429F69C4C00B0535D /* Products */,
 			);
@@ -60,6 +66,22 @@
 				C0EB191629F69C4C00B0535D /* main.swift */,
 			);
 			path = CodingTest;
+			sourceTree = "<group>";
+		};
+		C0EB191D29F69C6E00B0535D /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB191E29F6ABFF00B0535D /* LeetCode2085.swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		C0F2E4C32B6BBB5900B87C43 /* Progreammers */ = {
+			isa = PBXGroup;
+			children = (
+				C0F2E4C42B6BBB7600B87C43 /* 체육복.swift */,
+			);
+			path = Progreammers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,7 +112,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					C0EB191229F69C4C00B0535D = {
 						CreatedOnToolsVersion = 14.2;
@@ -121,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EB191729F69C4C00B0535D /* main.swift in Sources */,
+				C0EB191F29F6ABFF00B0535D /* LeetCode2085.swift in Sources */,
+				C0F2E4C52B6BBB7600B87C43 /* 체육복.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +184,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -220,9 +246,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -244,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = U77SWC9NZT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -255,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = U77SWC9NZT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
