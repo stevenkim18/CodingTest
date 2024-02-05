@@ -9,17 +9,22 @@ import Foundation
 
 class 타겟넘버 {
     func solution(_ numbers:[Int], _ target:Int) -> Int {
-        var array = [0]
+        var count = 0
         
-        for number in numbers {
-            var temps = [Int]()
-            for element in array {
-                temps.append(element+number)
-                temps.append(element-number)
+        func dfs(_ index: Int, _ sum: Int) {
+            if index == numbers.count - 1 {
+                if sum == target {
+                    count += 1
+                }
+                return
             }
-            array = temps
+            
+            dfs(index+1, sum + numbers[index + 1])
+            dfs(index+1, sum - numbers[index + 1])
         }
         
-        return array.filter { $0 == target }.count
+        dfs(-1, 0)
+        
+        return count
     }
 }
