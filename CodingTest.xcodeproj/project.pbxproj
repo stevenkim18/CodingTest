@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00E1BD72B7B3279003AC0BC /* 4-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E1BD62B7B3279003AC0BC /* 4-1.swift */; };
+		C054A15E2B7C92280059E43D /* 1476.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054A15D2B7C92280059E43D /* 1476.swift */; };
+		C054A1602B7DE06F0059E43D /* 1260.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054A15F2B7DE06F0059E43D /* 1260.swift */; };
+		C06E8FD82BC0CD0F003D5B50 /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E8FD72BC0CD0F003D5B50 /* Test1.swift */; };
+		C06E8FDA2BC0D149003D5B50 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E8FD92BC0D148003D5B50 /* Test2.swift */; };
+		C06E8FDC2BC0D532003D5B50 /* Test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E8FDB2BC0D532003D5B50 /* Test3.swift */; };
 		C08053782B70B41C006AE327 /* 타겟넘버.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08053772B70B41C006AE327 /* 타겟넘버.swift */; };
+		C080537A2B71019F006AE327 /* 네트워크.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08053792B71019F006AE327 /* 네트워크.swift */; };
+		C080537D2B7386E7006AE327 /* Tving1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080537C2B7386E7006AE327 /* Tving1.swift */; };
+		C080537F2B738F18006AE327 /* Tving2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080537E2B738F18006AE327 /* Tving2.swift */; };
+		C08053812B7396E6006AE327 /* Tving3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08053802B7396E6006AE327 /* Tving3.swift */; };
 		C0EB191729F69C4C00B0535D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB191629F69C4C00B0535D /* main.swift */; };
 		C0EB191F29F6ABFF00B0535D /* LeetCode2085.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB191E29F6ABFF00B0535D /* LeetCode2085.swift */; };
 		C0F2E4C52B6BBB7600B87C43 /* 체육복.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2E4C42B6BBB7600B87C43 /* 체육복.swift */; };
@@ -27,7 +37,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C00E1BD62B7B3279003AC0BC /* 4-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-1.swift"; sourceTree = "<group>"; };
+		C054A15D2B7C92280059E43D /* 1476.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1476.swift; sourceTree = "<group>"; };
+		C054A15F2B7DE06F0059E43D /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
+		C06E8FD72BC0CD0F003D5B50 /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
+		C06E8FD92BC0D148003D5B50 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		C06E8FDB2BC0D532003D5B50 /* Test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3.swift; sourceTree = "<group>"; };
 		C08053772B70B41C006AE327 /* 타겟넘버.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "타겟넘버.swift"; sourceTree = "<group>"; };
+		C08053792B71019F006AE327 /* 네트워크.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "네트워크.swift"; sourceTree = "<group>"; };
+		C080537C2B7386E7006AE327 /* Tving1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tving1.swift; sourceTree = "<group>"; };
+		C080537E2B738F18006AE327 /* Tving2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tving2.swift; sourceTree = "<group>"; };
+		C08053802B7396E6006AE327 /* Tving3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tving3.swift; sourceTree = "<group>"; };
 		C0EB191329F69C4C00B0535D /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EB191629F69C4C00B0535D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0EB191E29F6ABFF00B0535D /* LeetCode2085.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode2085.swift; sourceTree = "<group>"; };
@@ -46,9 +66,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00E1BD42B7B3252003AC0BC /* ThisIsCodingTestForJobs */ = {
+			isa = PBXGroup;
+			children = (
+				C00E1BD52B7B326C003AC0BC /* 4 */,
+			);
+			path = ThisIsCodingTestForJobs;
+			sourceTree = "<group>";
+		};
+		C00E1BD52B7B326C003AC0BC /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				C00E1BD62B7B3279003AC0BC /* 4-1.swift */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		C054A15C2B7C92120059E43D /* BaekJoon */ = {
+			isa = PBXGroup;
+			children = (
+				C054A15D2B7C92280059E43D /* 1476.swift */,
+				C054A15F2B7DE06F0059E43D /* 1260.swift */,
+			);
+			path = BaekJoon;
+			sourceTree = "<group>";
+		};
+		C06E8FD62BC0CCFF003D5B50 /* EbayJapen */ = {
+			isa = PBXGroup;
+			children = (
+				C06E8FD72BC0CD0F003D5B50 /* Test1.swift */,
+				C06E8FD92BC0D148003D5B50 /* Test2.swift */,
+				C06E8FDB2BC0D532003D5B50 /* Test3.swift */,
+			);
+			path = EbayJapen;
+			sourceTree = "<group>";
+		};
+		C080537B2B7386D7006AE327 /* Tving */ = {
+			isa = PBXGroup;
+			children = (
+				C080537C2B7386E7006AE327 /* Tving1.swift */,
+				C080537E2B738F18006AE327 /* Tving2.swift */,
+				C08053802B7396E6006AE327 /* Tving3.swift */,
+			);
+			path = Tving;
+			sourceTree = "<group>";
+		};
 		C0EB190A29F69C4C00B0535D = {
 			isa = PBXGroup;
 			children = (
+				C06E8FD62BC0CCFF003D5B50 /* EbayJapen */,
+				C054A15C2B7C92120059E43D /* BaekJoon */,
+				C00E1BD42B7B3252003AC0BC /* ThisIsCodingTestForJobs */,
+				C080537B2B7386D7006AE327 /* Tving */,
 				C0F2E4C32B6BBB5900B87C43 /* Progreammers */,
 				C0EB191D29F69C6E00B0535D /* LeetCode */,
 				C0EB191529F69C4C00B0535D /* CodingTest */,
@@ -86,6 +155,7 @@
 				C0F2E4C42B6BBB7600B87C43 /* 체육복.swift */,
 				C0F2E4C62B6BDFA300B87C43 /* 조이스틱.swift */,
 				C08053772B70B41C006AE327 /* 타겟넘버.swift */,
+				C08053792B71019F006AE327 /* 네트워크.swift */,
 			);
 			path = Progreammers;
 			sourceTree = "<group>";
@@ -148,10 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C080537D2B7386E7006AE327 /* Tving1.swift in Sources */,
+				C080537F2B738F18006AE327 /* Tving2.swift in Sources */,
 				C0F2E4C72B6BDFA300B87C43 /* 조이스틱.swift in Sources */,
+				C054A15E2B7C92280059E43D /* 1476.swift in Sources */,
 				C08053782B70B41C006AE327 /* 타겟넘버.swift in Sources */,
 				C0EB191729F69C4C00B0535D /* main.swift in Sources */,
 				C0EB191F29F6ABFF00B0535D /* LeetCode2085.swift in Sources */,
+				C00E1BD72B7B3279003AC0BC /* 4-1.swift in Sources */,
+				C06E8FDA2BC0D149003D5B50 /* Test2.swift in Sources */,
+				C06E8FDC2BC0D532003D5B50 /* Test3.swift in Sources */,
+				C080537A2B71019F006AE327 /* 네트워크.swift in Sources */,
+				C06E8FD82BC0CD0F003D5B50 /* Test1.swift in Sources */,
+				C08053812B7396E6006AE327 /* Tving3.swift in Sources */,
+				C054A1602B7DE06F0059E43D /* 1260.swift in Sources */,
 				C0F2E4C52B6BBB7600B87C43 /* 체육복.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
