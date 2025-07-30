@@ -1,66 +1,30 @@
 def solution(n, w, num):
     answer = 0
-    # print("n=", n, "w=", w, "num=", num)
     
-    # if n == num: return 1
+    # 총 층 수 계산
+    num_floors = (n + w - 1) // w
     
-    # 층 구하기
-    floor = n // w
-    
-    
-    if n % w != 0:
-        floor += 1
-    # print("floor:", floor)
-    
-    # 상자들
-    boxs = [[] for _ in range(floor)]
-    
-    # print(floor)
-    
-    for i in range(floor):
-        for j in range(w):
-            value = j + i * w + 1            
-            if i + 1 >= floor and value > n:
-                boxs[i].append(0)
-            else:
-                boxs[i].append(value)
-        
+    # 상자 채우기
+    boxes = []
+    for i in range(num_floors):
+        start = i * w + 1
+        end = start + w
+        row = [x if x <= n else 0 for x in range(start, end)]
         if i % 2 == 1:
-            boxs[i].reverse()
-    # for i in range(floor):
-    #     for j in range(w):
-    #         print(boxs[i][j], end="")
-        # print()
-        
-    boxFloor = num // w
-    if num % w == 0:
-        boxFloor -= 1
-    location = 0
-    if boxFloor % 2 == 0:
-        if num % w == 0:
-            location = w - 1
-        else:
-            location = num % w - 1
+            row.reverse()
+        boxes.append(row)
+
+    # 목표 상자의 위치 계산
+    target_floor = (num - 1) // w
+    if target_floor % 2 == 0:
+        target_index = (num - 1) % w
     else:
-        if num % w == 0:
-            location = 0
-        else:
-            location = w - num % w
-        
-    # print("boxFloor:", boxFloor)
-    # print("location:", location)
-    
-    while boxFloor < floor:
-        if boxs[boxFloor][location] == 0:
+        target_index = w - 1 - (num - 1) % w
+
+    # 해당 위치에서 아래로 세기
+    for i in range(target_floor, num_floors):
+        if boxes[i][target_index] == 0:
             break
         answer += 1
-        boxFloor += 1 
-    
-    # print(answer)
-    return answer
 
-# solution(14, 4, 14)
-# solution(12, 4, 12)
-# solution(11, 4, 11)
-# solution(10, 4, 10)
-# solution(6, 5, 4)
+    return answer
